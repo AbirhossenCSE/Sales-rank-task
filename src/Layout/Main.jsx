@@ -11,7 +11,7 @@ import Footer from '../Shared/Footer';
 
 const Main = () => {
     return (
-        <div className='bg-[#f9f9f9] px-6 md:px-20'>
+        <div className='bg-[#f9f9f9]'>
             <Navbar></Navbar>
             <Home></Home>
             <LiveAi></LiveAi>
