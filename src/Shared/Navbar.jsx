@@ -19,12 +19,15 @@ const Navbar = () => {
             <li><Link to="/" onClick={() => handleScroll("home")}>Home</Link></li>
             <li><Link to="/" onClick={() => handleScroll("about")}>About</Link></li>
             <li><Link to="/" onClick={() => handleScroll("projects")}>Projects</Link></li>
+            <li><Link to="/" onClick={() => handleScroll("pricing")}>Pricing</Link></li>
+            <li><Link to="/" onClick={() => handleScroll("consulting")}>Consulting</Link></li>
+            <li><Link to="/" onClick={() => handleScroll("ai-coach")}>AI-Coach</Link></li>
         </>
     );
 
     return (
-        <div className="fixed top-0 left-0 right-0 z-50 bg-base-100 shadow-sm rounded-b-xl px-6 md:px-20">
-            <div className="navbar">
+        <div className="fixed max-w-7xl lg:w-[1440px] md:h-[108px] top-0 mx-auto shadow-sm ">
+            <div className="navbar items-center h-full">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
