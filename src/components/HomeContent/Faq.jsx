@@ -1,36 +1,3 @@
-// import React from 'react';
-
-// const Faq = () => {
-//     return (
-//         <div className='p-10'>
-//             <h3>Frequently asked questions</h3>
-//             <h1 className='font-semibold text-3xl text-center'>Constant Colaboration is how we <br /> roll. Let's see if we area good fit</h1>
-
-//             <div tabIndex={0} className="collapse collapse-plus bg-base-100 border-base-300 border">
-//                 <div className="collapse-title font-semibold">Why should I choose Humestic?</div>
-//                 <div className="collapse-content text-sm">
-//                     Click the "Sign Up" button in the top right corner and follow the registration process.
-//                 </div>
-//             </div>
-//             <div tabIndex={0} className="collapse collapse-plus bg-base-100 border-base-300 border">
-//                 <div className="collapse-title font-semibold">HI like your works, how do yw start a project</div>
-//                 <div className="collapse-content text-sm">
-//                     Click the "Sign Up" button in the top right corner and follow the registration process.
-//                 </div>
-//             </div>
-//             <div tabIndex={0} className="collapse collapse-plus bg-base-100 border-base-300 border">
-//                 <div className="collapse-title font-semibold">How do I create an account?</div>
-//                 <div className="collapse-content text-sm">
-//                     Click the "Sign Up" button in the top right corner and follow the registration process.
-//                 </div>
-//             </div>
-//         </div>
-//     );
-// };
-
-// export default Faq;
-
-
 import React from 'react';
 import { motion } from 'framer-motion';
 import { ChevronDown, ChevronUp } from 'lucide-react';

@@ -26,7 +26,7 @@ const ChatBox = () => {
 
             const data = await response.json();
 
-            // Assuming Gemini responds with `candidates[0].content.parts[0].text`
+            // Assuming Gemini responds
             const reply = data.candidates?.[0]?.content?.parts?.[0]?.text || "No response.";
             return reply;
 

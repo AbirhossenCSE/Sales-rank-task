@@ -1,36 +1,8 @@
-// import React from 'react';
-// import img1 from '../../assets/AI/Frame-1.png'
-// import img2 from '../../assets/AI/Frame-2.png'
-// import img3 from '../../assets/AI/Frame-3.png'
-
-// const LiveAi = () => {
-//     return (
-//         <div className='bg-blue-600 max-w-7xl mx-auto'>
-//             <h3>Live Ai Coach</h3>
-//             <h1>Take a Suggestion Coaching </h1>
-//             <div>
-//                 <div>
-//                     <img src={img1} alt="" />
-//                 </div>
-//                 <div>
-//                     <img src={img2} alt="" />
-//                 </div>
-//                 <div>
-//                     <img src={img3} alt="" />
-//                 </div>
-//             </div>           
-//         </div>
-//     );
-// };
-
-// export default LiveAi;
-
-
 import React from 'react';
 import { MessageCircle, ThumbsUp, ThumbsDown, Settings, Zap } from 'lucide-react';
-import img1 from '../../assets/AI/Frame-1.png'; // Chat box UI
-import img2 from '../../assets/AI/Frame-2.png'; // Real-time analysis
-import img3 from '../../assets/AI/Frame-3.png'; // Quick actions
+import img1 from '../../assets/AI/Frame-1.png'; 
+import img2 from '../../assets/AI/Frame-2.png';
+import img3 from '../../assets/AI/Frame-3.png';
 import ChatBox from './ChatBox/ChatBox';
 
 const LiveAi = () => {
