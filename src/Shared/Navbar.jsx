@@ -25,8 +25,8 @@ const Navbar = () => {
     return (
         <>
             <div className="fixed top-0 left-0 w-full z-50 backdrop-blur-md text-black transition-all duration-300">
-                <div className="max-w-7xl mx-auto flex items-center justify-between px-4 py-4">
-                    <div className="flex items-center gap-10 lg:ml-20">
+                <div className="max-w-7xl mx-auto flex items-center justify-between py-4">
+                    <div className="flex items-center gap-10 lg:ml-10 ">
                         <a className="text-2xl font-bold hidden lg:block">SalesRank.AI</a>
 
                         {/* Desktop Links */}
@@ -52,7 +52,7 @@ const Navbar = () => {
 
                     {/* Right: Get Started Button */}
                     <div className="lg:mr-20">
-                        <button className="px-4 py-1 border rounded-2xl">Get Started</button>
+                        <button className=" py-1 px-3 border rounded-2xl">Get Started</button>
                     </div>
                 </div>
             </div>

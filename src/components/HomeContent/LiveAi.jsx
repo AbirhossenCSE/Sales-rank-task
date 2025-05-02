@@ -17,14 +17,14 @@ const LiveAi = () => {
             {/* Content Grid */}
             <div className="grid grid-cols-1 lg:grid-cols-6  items-start max-w-7xl mx-auto">
                 {/* Chat Box */}
-                 <div className="col-span-3 bg-blue-600 rounded-xl shadow-lg p-4">
+                 <div className="col-span-3 bg-blue-700 rounded-xl shadow-lg p-4">
                     <ChatBox></ChatBox>
                 </div>
                 
 
                 {/* Sidebar */}
                 <div className="hidden lg:flex flex-col items-center gap-6 mt-4">
-                    <div className="bg-blue-600 rounded-xl shadow-lg">
+                    <div className="rounded-xl shadow-lg">
                         <img src={img2} alt="Real-time Analysis" className="w-full rounded-lg my-24" />
                     </div>
                 </div>
