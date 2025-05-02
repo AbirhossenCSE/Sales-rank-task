@@ -1,8 +1,10 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 
 const ChatBox = () => {
     const [message, setMessage] = useState('');
-    const [messages, setMessages] = useState([]);
+    const [messages, setMessages] = useState([
+        { type: 'bot', text: 'Hello! I am your sales coach. How can I help you improve your sales perfomance today?' }
+    ]);
 
     const generateBotResponse = async (history) => {
         const formattedHistory = history.map(msg => ({
@@ -25,8 +27,6 @@ const ChatBox = () => {
             }
 
             const data = await response.json();
-
-            // Assuming Gemini responds
             const reply = data.candidates?.[0]?.content?.parts?.[0]?.text || "No response.";
             return reply;
 
@@ -36,24 +36,17 @@ const ChatBox = () => {
         }
     };
 
-
     const handleSend = async () => {
         if (message.trim() === '') return;
 
         const userMessage = { type: 'user', text: message };
         setMessage('');
 
-        // Add user message and temporary bot "Thinking..." message
-        setMessages(prev => {
-            const newMessages = [...prev, userMessage, { type: 'bot', text: 'Thinking...' }];
-            return newMessages;
-        });
+        setMessages(prev => [...prev, userMessage, { type: 'bot', text: 'Thinking...' }]);
 
         const updatedHistory = [...messages, userMessage];
-
         const botReply = await generateBotResponse(updatedHistory);
 
-        // Replace last "Thinking..." message with actual bot reply
         setMessages(prev => {
             const updated = [...prev];
             updated[updated.length - 1] = { type: 'bot', text: botReply };
@@ -62,8 +55,9 @@ const ChatBox = () => {
     };
 
     return (
-        <div className="max-w-md mx-auto p-4 border rounded shadow">
-            <div className="h-96 overflow-y-auto border p-2 mb-4 bg-gray-300 rounded-xl">
+        <div className="max-w-md mx-auto p-4 border rounded-xl shadow bg-white">
+            <h2 className="text-xl font-semibold mb-3 text-black">AI Sales Coach</h2>
+            <div className="h-96 overflow-y-auto border p-2 mb-4 bg-gray-200 rounded-xl">
                 {messages.map((msg, index) => (
                     <div
                         key={index}
@@ -97,4 +91,3 @@ const ChatBox = () => {
 };
 
 export default ChatBox;
-

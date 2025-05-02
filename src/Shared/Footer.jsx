@@ -1,12 +1,11 @@
 import React from 'react';
 import {
-    Facebook,
-    Twitter,
-    Linkedin,
     Phone,
     Mail,
     MapPin,
 } from 'lucide-react';
+import { FaFacebookSquare, FaLinkedin, FaTwitter } from 'react-icons/fa';
+import { FaSquareInstagram } from 'react-icons/fa6';
 
 const Footer = () => {
     return (
@@ -14,7 +13,10 @@ const Footer = () => {
             <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-5 gap-8">
                 {/* Logo and Description */}
                 <div className="col-span-2 flex flex-col">
-                    <h3 className="text-lg font-semibold text-gray-800 mb-4">Logo</h3>
+                    <div>
+                        <img src="" alt="" />
+                        <h3 className="text-lg font-semibold text-gray-800 mb-4">Logo</h3>
+                    </div>
                     <p className="text-gray-600 text-sm">
                         SalesRank.AI is a comprehensive suite of AI-powered solutions to help you find
                         and evaluate top sales professionals who can elevate every aspect of your business.
@@ -23,15 +25,10 @@ const Footer = () => {
                         drive growth.
                     </p>
                     <div className="flex space-x-4 mt-4">
-                        <a href="#" aria-label="Facebook" className="hover:text-blue-500">
-                            <Facebook className="h-6 w-6" />
-                        </a>
-                        <a href="#" aria-label="Twitter" className="hover:text-blue-400">
-                            <Twitter className="h-6 w-6" />
-                        </a>
-                        <a href="#" aria-label="LinkedIn" className="hover:text-blue-700">
-                            <Linkedin className="h-6 w-6" />
-                        </a>
+                        <FaFacebookSquare className='text-blue-700 w-6 h-6' />
+                        <FaTwitter className='text-blue-700 w-6 h-6' />
+                        <FaLinkedin className='text-blue-700 w-6 h-6' />
+                        <FaSquareInstagram className='text-red-400 w-6 h-6' />
                     </div>
                 </div>
 

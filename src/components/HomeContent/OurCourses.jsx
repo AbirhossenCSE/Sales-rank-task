@@ -38,7 +38,7 @@ const OurCourses = () => {
             </div>
 
             {/* Courses Grid */}
-            <div className="grid grid-cols-1 md:grid-cols-2 p-10 gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 md:p-10 gap-8">
                 {courses.map(course => (
                     <div key={course.id} className="bg-gray-100 p-6 rounded-xl shadow hover:shadow-lg transition">
                         <img src={course.image} alt={course.title} className="w-[605px] h-[380px] object-cover rounded-xl mb-4" />

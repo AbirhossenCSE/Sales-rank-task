@@ -9,23 +9,23 @@ const LiveAi = () => {
     return (
         <div className="bg-gradient-to-r from-blue-800 to-blue-500 text-white py-20 px-6 lg:px-16">
             {/* Titles */}
-            <div className="mb-10 text-center">
+            <div className="mb-10 ml-12">
                 <h4 className="text-sm text-blue-200 font-medium">Live AI Coach</h4>
                 <h1 className="text-3xl lg:text-5xl font-semibold">Take a Suggestion Coaching</h1>
             </div>
 
             {/* Content Grid */}
-            <div className="grid grid-cols-1 lg:grid-cols-6 gap-2 items-start max-w-7xl mx-auto">
+            <div className="grid grid-cols-1 lg:grid-cols-6  items-start max-w-7xl mx-auto">
                 {/* Chat Box */}
-                 <div className="col-span-3 bg-white rounded-xl shadow-lg p-4">
+                 <div className="col-span-3 bg-blue-600 rounded-xl shadow-lg p-4">
                     <ChatBox></ChatBox>
                 </div>
                 
 
                 {/* Sidebar */}
                 <div className="hidden lg:flex flex-col items-center gap-6 mt-4">
-                    <div className="bg-white rounded-xl shadow-lg p-4">
-                        <img src={img2} alt="Real-time Analysis" className="w-full rounded-lg" />
+                    <div className="bg-blue-600 rounded-xl shadow-lg">
+                        <img src={img2} alt="Real-time Analysis" className="w-full rounded-lg my-24" />
                     </div>
                 </div>
 
