@@ -1,12 +1,57 @@
-# React + Vite
+# Sales Rank AI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Live Demo
+[View Live Site](https://sales-rank-ai-task.surge.sh/)
 
-Currently, two official plugins are available:
+## Overview
+The Sales Rank AI System is a web-based platform designed 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+## Technologies Used
+- React.js
+- React Router DOM
+- React Query (Data fetching)
+- SweetAlert2 (User notifications)
+- Swiper & React-Slick (Carousels)
+- Tailwind CSS
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+
+## Installation & Setup
+1. **Clone the repository:**
+   ```sh
+   git clone https://github.com/AbirhossenCSE/Sales-rank-task
+   cd sales-rank-task
+   ```
+
+2. **Install dependencies:**
+   ```sh
+   npm install
+   ```
+
+3. **Run the development server:**
+   ```sh
+   npm run dev
+   ```
+
+## Dependencies
+```json
+{
+  "@tailwindcss/vite": "^4.1.4",
+    "framer-motion": "^12.9.2",
+    "localforage": "^1.10.0",
+    "lucide-react": "^0.503.0",
+    "match-sorter": "^8.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-icons": "^5.5.0",
+    "react-router-dom": "^7.5.3",
+    "react-slick": "^0.30.3",
+    "slick-carousel": "^1.8.1",
+    "sort-by": "^1.2.0",
+    "tailwindcss": "^4.1.4"
+}
+```
+https://i.ibb.co.com/1DTHpdY/Capture.jpg
+https://i.ibb.co.com/7t8KNyHC/Capture2.jpg
+https://i.ibb.co.com/dwTry3TW/Capture3.jpg
