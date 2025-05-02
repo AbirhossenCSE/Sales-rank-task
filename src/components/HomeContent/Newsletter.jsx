@@ -2,7 +2,7 @@ import React from 'react';
 
 const Newsletter = () => {
     return (
-        <div className="max-w-7xl rounded-xl mx-auto bg-gradient-to-r from-blue-900 to-blue-600 py-16 md:py-24">
+        <div id='consulting' className="max-w-7xl rounded-xl mx-auto bg-gradient-to-r from-blue-900 to-blue-600 py-16 md:py-24">
             <div className="container mx-auto px-4 text-center">
                 <h2 className="text-2xl md:text-3xl font-bold text-white mb-4 md:mb-6">
                     Ready to Hire Smarter?

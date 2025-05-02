@@ -52,7 +52,7 @@ const Navbar = () => {
 
                     {/* Right: Get Started Button */}
                     <div className="lg:mr-20">
-                        <button className="btn btn-sm px-6 py-4 rounded-2xl">Get Started</button>
+                        <button className="px-4 py-1 border rounded-2xl">Get Started</button>
                     </div>
                 </div>
             </div>

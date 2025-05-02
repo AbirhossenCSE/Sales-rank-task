@@ -7,7 +7,7 @@ import ChatBox from './ChatBox/ChatBox';
 
 const LiveAi = () => {
     return (
-        <div className="bg-gradient-to-r from-blue-800 to-blue-500 text-white py-20 px-6 lg:px-16">
+        <div id='ai-coach' className="bg-gradient-to-r from-blue-800 to-blue-500 text-white py-20 px-6 lg:px-16">
             {/* Titles */}
             <div className="mb-10 ml-12">
                 <h4 className="text-sm text-blue-200 font-medium">Live AI Coach</h4>

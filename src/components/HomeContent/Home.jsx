@@ -6,7 +6,7 @@ import img4 from '../../assets/Banner/atr.png';
 
 const Home = () => {
     return (
-        <div className='pt-2 mb-8'>
+        <div id='home' className='pt-2 mb-8'>
             <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center justify-between px-10 py-20">
                 
                 {/* Left Content */}

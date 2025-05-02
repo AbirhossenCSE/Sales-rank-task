@@ -30,7 +30,7 @@ const Faq = () => {
     ];
 
     return (
-        <div className="bg-gray-50 max-w-7xl mx-auto py-16">
+        <div id='about' className="bg-gray-50 max-w-7xl mx-auto py-16">
             <div className="container mx-auto px-4">
                 <h2 className="text-lg">
                     Frequently asked <br /> questions

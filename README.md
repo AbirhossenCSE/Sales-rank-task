@@ -4,16 +4,16 @@
 [View Live Site](https://sales-rank-ai-task.surge.sh/)
 
 ## Overview
-The Sales Rank AI System is a web-based platform designed 
+The Sales Rank AI System is a web-based platform designed to help user for their help improve sales perfomance. User can took instraction from AI bot in this website.
 
 
 ## Technologies Used
 - React.js
 - React Router DOM
 - React Query (Data fetching)
-- SweetAlert2 (User notifications)
 - Swiper & React-Slick (Carousels)
 - Tailwind CSS
+- Live Chat Bot
 
 
 
@@ -52,11 +52,11 @@ The Sales Rank AI System is a web-based platform designed
     "tailwindcss": "^4.1.4"
 }
 ```
-### Capture 1
+### Image 1
 ![First Screenshot](https://i.ibb.co.com/1DTHpdY/Capture.jpg)
 
-### Capture 2  
+### Image 2  
 ![Second Screenshot](https://i.ibb.co.com/7t8KNyHC/Capture2.jpg)
 
-### Capture 3
+### Image 3
 ![Third Screenshot](https://i.ibb.co.com/dwTry3TW/Capture3.jpg)

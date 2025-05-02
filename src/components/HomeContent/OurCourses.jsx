@@ -25,7 +25,7 @@ const OurCourses = () => {
     ];
 
     return (
-        <div className="max-w-7xl mx-auto px-6 py-20 bg-white">
+        <div id='pricing' className="max-w-7xl mx-auto px-6 py-20 bg-white">
             {/* Heading Section */}
             <div className="flex justify-between items-center mb-12">
                 <div>
