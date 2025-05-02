@@ -52,6 +52,11 @@ The Sales Rank AI System is a web-based platform designed
     "tailwindcss": "^4.1.4"
 }
 ```
-https://i.ibb.co.com/1DTHpdY/Capture.jpg
-https://i.ibb.co.com/7t8KNyHC/Capture2.jpg
-https://i.ibb.co.com/dwTry3TW/Capture3.jpg
+### Capture 1
+![First Screenshot](https://i.ibb.co.com/1DTHpdY/Capture.jpg)
+
+### Capture 2  
+![Second Screenshot](https://i.ibb.co.com/7t8KNyHC/Capture2.jpg)
+
+### Capture 3
+![Third Screenshot](https://i.ibb.co.com/dwTry3TW/Capture3.jpg)
