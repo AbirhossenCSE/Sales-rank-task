@@ -1,7 +1,8 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { ChevronDown, ChevronUp } from 'lucide-react';
 import { useState } from 'react';
+import { IoMdAdd } from 'react-icons/io';
+import { FiMinus } from 'react-icons/fi';
 
 const Faq = () => {
     const [openItem, setOpenItem] = useState(null);
@@ -55,12 +56,12 @@ const Faq = () => {
                             >
                                 <div className='flex items-center gap-2'>
                                     <span className='text-gray-500 font-bold'>{String(item.id).padStart(2, '0')}</span>
-                                    <h3 className="text-lg font-semibold text-gray-800">{item.question}</h3>
+                                    <h3 className="text-xl font-semibold text-gray-800">{item.question}</h3>
                                 </div>
                                 {openItem === item.id ? (
-                                    <ChevronUp className="h-6 w-6 text-blue-500" />
+                                    <FiMinus className="h-6 w-6 text-blue-500" />
                                 ) : (
-                                    <ChevronDown className="h-6 w-6 text-blue-500" />
+                                    <IoMdAdd className="h-6 w-6 text-blue-500" />
                                 )}
                             </div>
                             <motion.div

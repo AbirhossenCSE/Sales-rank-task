@@ -44,8 +44,8 @@ const OurCourses = () => {
                         <img src={course.image} alt={course.title} className="w-[605px] h-[380px] object-cover rounded-xl mb-4" />
                         <div className="flex justify-between text-sm text-gray-500 my-6">
                             <div className='flex gap-4'>
-                                <span>{course.duration}</span>
-                                <span>{course.level}</span>
+                                <span className='bg-white py-1 px-2 rounded-sm text-black'>{course.duration}</span>
+                                <span className='bg-white py-1 px-2 rounded-sm text-black'>{course.level}</span>
                             </div>
                             <span>By {course.author}</span>
                         </div>

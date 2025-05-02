@@ -9,9 +9,13 @@ import TestimonialSlider from '../components/HomeContent/TestimonialSlider';
 import Newsletter from '../components/HomeContent/Newsletter';
 import Footer from '../Shared/Footer';
 
+// bg-white bg-[radial-gradient(100%_50%_at_0%_0%,rgba(59,130,246,0.13)_0,rgba(59,130,246,0)_50%),radial-gradient(100%_50%_at_0%_100%,rgba(59,130,246,0.13)_0,rgba(59,130,246,0)_50%)]
+
 const Main = () => {
     return (
-        <div className='bg-[#f9f9f9]'>
+        <div className='bg-white bg-[radial-gradient(100%_50%_at_0%_0%,rgba(59,130,246,0.25)_0,rgba(59,130,246,0)_50%),radial-gradient(100%_50%_at_0%_100%,rgba(59,130,246,0.25)_0,rgba(59,130,246,0)_50%)]
+
+'>
             <Navbar></Navbar>
             <Home></Home>
             <LiveAi></LiveAi>

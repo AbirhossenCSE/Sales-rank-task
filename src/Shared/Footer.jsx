@@ -6,15 +6,17 @@ import {
 } from 'lucide-react';
 import { FaFacebookSquare, FaLinkedin, FaTwitter } from 'react-icons/fa';
 import { FaSquareInstagram } from 'react-icons/fa6';
+import { GiArtificialIntelligence } from 'react-icons/gi';
+import { MdOutlineEmail } from 'react-icons/md';
 
 const Footer = () => {
     return (
-        <footer className="bg-gray-100 max-w-7xl mx-auto py-12">
-            <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-5 gap-8">
+        <footer className="max-w-7xl mx-auto py-12">
+            <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-6 gap-8">
                 {/* Logo and Description */}
-                <div className="col-span-2 flex flex-col">
-                    <div>
-                        <img src="" alt="" />
+                <div className="col-span-3 flex flex-col">
+                    <div className='flex items-center gap-2'>
+                        <GiArtificialIntelligence className='text-2xl mb-3 text-blue-600' />
                         <h3 className="text-lg font-semibold text-gray-800 mb-4">Logo</h3>
                     </div>
                     <p className="text-gray-600 text-sm">
@@ -91,20 +93,20 @@ const Footer = () => {
                     <h3 className="text-lg font-semibold text-gray-800 mb-4">Contact</h3>
                     <ul className="space-y-2">
                         <li className="flex items-center gap-2">
-                            <Phone className="h-4 w-4 text-blue-500" />
+                            <Phone className="h-4 w-4 text-black" />
                             <span className="text-gray-600 text-sm">(406) 156-0120</span>
                         </li>
                         <li className="flex items-center gap-2">
-                            <Mail className="h-4 w-4 text-blue-500" />
                             <a
                                 href="mailto:heyboosta@helloboosta.com"
-                                className="text-gray-600 hover:text-blue-500 text-sm"
+                                className="text-gray-600 hover:text-blue-500 text-sm flex items-center gap-2"
                             >
+                                <Mail className="h-4 w-4 text-black" />
                                 heyboosta@helloboosta.com
                             </a>
                         </li>
                         <li className="flex items-start gap-2">
-                            <MapPin className="h-4 w-4 mt-1 text-blue-500" />
+                            <MapPin className="h-6 w-6 mt-1 text-black" />
                             <span className="text-gray-600 text-sm">
                                 2072 Westheimer Rd. Santa Ana, <br />
                                 Illinois 85486
